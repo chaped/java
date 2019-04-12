@@ -1,0 +1,34 @@
+package prueba;
+
+public class Group {
+	private int number;
+	private String daysOfWeek;
+	private String timesOfDay;
+	private String semester;
+	
+	public void setNumber(int number) {
+		this.number=number;
+	}
+	public int getNumber(int number) {
+		return this.number;
+	}
+	public void setDayOfWeek(String dayOfWeek) {
+		this.daysOfWeek=dayOfWeek;
+	}
+	public String getDayOfWeek(String dayOfWeek) {
+		return this.daysOfWeek;
+	}
+	public void serTimeOfDay(String timesOfDay) {
+		this.timesOfDay=timesOfDay;
+	}
+	public String getTimeOfDay(String timeOfDay) {
+		return this.timesOfDay;
+	}
+	public void setSemester(String semester) {
+		this.semester=semester;
+	}
+	public String getSemester(String semester) {
+		return this.semester;
+	}
+		
+}
