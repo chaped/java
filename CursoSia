@@ -1,0 +1,29 @@
+package prueba;
+
+import java.util.List;
+
+public class Curso {
+
+	private int number;
+	private String name;
+	private List<Group> listOfGroups;
+		
+	public void setNumber(int number) {
+		this.number=number;
+	}
+	public int getNumber(int number) {
+		return this.number;
+	}
+	public void setName(String name) {
+		this.name=name;
+	}
+	public String getName(String name) {
+		return this.name;
+	}
+	public void setLista(List<Group> listOfGroups) {
+		this.listOfGroups=listOfGroups;
+	}
+	public List<Group> getLista(List<Group> listOfGroups) {
+		return this.listOfGroups;
+	}
+}
