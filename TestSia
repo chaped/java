@@ -1,0 +1,37 @@
+package prueba;
+
+import java.util.ArrayList;
+
+public class Test {
+
+	public static void main(String[]args) {
+		Studen andres=new Studen();
+		Studen camilo=new Studen();
+		Studen maria=new Studen();
+		andres.setId(100666);
+		camilo.setId(444555);
+		maria.setId(444548);
+		andres.setName("Adres");
+		System.out.println(andres.getName());
+		camilo.setName("Camilo");
+		System.out.println(camilo.getName());
+		maria.setName("Maria");
+		System.out.println(maria.getName());
+		ArrayList<Studen> lista=new ArrayList<Studen>();
+		lista.add(camilo);
+		lista.add(maria);
+		lista.add(andres);
+		for(int i=0;i<lista.size();i++) {
+			Studen st=lista.get(i);
+			System.out.println(st.getName());
+		}
+		for(Studen st1:lista) {
+			System.out.println(st1.getName());
+		}
+	}
+		Curso c1= new Curso();
+		Group g1 = new Group();
+
+}
+	
+
